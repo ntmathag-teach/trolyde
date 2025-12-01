@@ -1,0 +1,5 @@
+{
+  "name": "Copy of AutoExam Latex Generator",
+  "description": "A tool for teachers to generate complete LaTeX exam papers with TikZ graphics based on configurable difficulty levels and subjects using Gemini AI.",
+  "requestFramePermissions": []
+}
