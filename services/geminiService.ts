@@ -172,7 +172,7 @@ export const generateExamLatex = async (config: ExamConfig, apiKey: string): Pro
   `;
 
   try {
-    const modelName = config.useDeepThinking ? 'gemini-3-pro-preview' : 'gemini-2.5-flash';
+    const modelName = config.useDeepThinking ? 'gemini-3-pro-preview' : 'gemma-4-31b-it';
     const thinkingBudget = config.useDeepThinking ? 16384 : 0; 
 
     const response = await ai.models.generateContent({
